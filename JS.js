@@ -69,4 +69,5 @@ function asd(){
 	alert("Soy varonazo");
 	alert("Ya puessss");
 	var abbbbb="";
+	ax = aabb.length;
 }
