@@ -64,12 +64,3 @@ function limpiar(){
 	var elemento =  document.getElementById("result");
 	elemento.innerHTML = "";
 }
-
-function asd(){
-	alert("Soy varonazo");
-	alert("Ya puessss");
-	var abbbbb="";
-	ax = aabb.length;
-	ax = ax +1;
-	ax = ax +2;
-}
