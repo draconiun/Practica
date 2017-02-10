@@ -70,5 +70,4 @@ function asd(){
 	alert("Ya puessss");
 	var abbbbb="";
 	ax = aabb.length;
-	ax = ax +1;
 }
