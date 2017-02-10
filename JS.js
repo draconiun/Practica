@@ -64,3 +64,7 @@ function limpiar(){
 	var elemento =  document.getElementById("result");
 	elemento.innerHTML = "";
 }
+
+function asd(){
+	
+}
