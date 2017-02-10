@@ -71,4 +71,5 @@ function asd(){
 	var abbbbb="";
 	ax = aabb.length;
 	ax = ax +1;
+	ax = ax +2;
 }
