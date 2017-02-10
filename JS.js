@@ -67,4 +67,5 @@ function limpiar(){
 
 function asd(){
 	alert("Soy varonazo");
+	alert("Ya puessss");
 }
