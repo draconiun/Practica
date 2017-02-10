@@ -1,19 +1,22 @@
 function agregar_numero(){
 	var contenedor = document.getElementById("numeros");
-	cantidad_numero = cantidad_divs();
-
-	//HACER EL DIV CONTENEDOR
-	var nuevo_numero = document.createElement("div");
-	nuevo_numero.innerHTML = document.getElementById("numero").value;
-	nuevo_numero.setAttribute("id","div"+(cantidad_numero+1));
-	contenedor.appendChild(nuevo_numero);
+	contenedor.innerHTML = contenedor.innerHTML + " " + document.getElementById("numero").value;
 	document.getElementById("numero").value = "";
 }
 
-function cantidad_divs(){
-	var contenedor = document.getElementById("numeros");
-	cantidad_numero = contenedor.getElementsByTagName('div').length;
+function cantidad_numeros(){
+	contenedor = document.getElementById("numeros");
+	string_numero = contenedor.innerHTML;
+	lista_numero = string_numero.split(" ");
+	cantidad_numero = lista_numero.length;
 	return cantidad_numero;
+}
+
+function listar_numeros(){
+	contenedor = document.getElementById("numeros");
+	string_numero = contenedor.innerHTML;
+	lista_numero = string_numero.split(" ");
+	return lista_numero;
 }
 
 function algoritmoBurbuja(lista_numero){
@@ -38,24 +41,17 @@ function algoritmoBurbuja(lista_numero){
 
 function ordenar_numeros(){
 	var contenedor = document.getElementById("numeros");
-	cantidad_numero = cantidad_divs();
-	lista_numero = [];
+	cantidad_numero = cantidad_numeros();
+	lista_numero = listar_numeros();
 	lista_ordenada = [];
-	abc="";
+	respuesta="";
+	lista_ordenada = algoritmoBurbuja(lista_numero);
 	for(i=0 ; i < cantidad_numero ; i++)
 	{
-		var numero = contenedor.getElementsByTagName("div")[i].innerHTML;
-		//var numero = document.getElementById("div"+(i+1)).innerHTML;
-		lista_numero.push(numero);
+		respuesta+=lista_ordenada[i]+" ";
 	}
-	lista_ordenada = algoritmoBurbuja(lista_numero);
-	for(i=0 ; i < lista_ordenada.length ; i++)
-	{
-		abc+=lista_ordenada[i]+" ";
-	}
-	alert(abc);
 	var elemento =  document.getElementById("result");
-	elemento.innerHTML = abc;
+	elemento.innerHTML = respuesta;
 }
 
 function limpiar(){
