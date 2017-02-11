@@ -1,16 +1,27 @@
+*{
+  margin:0px 0px 0px 0px;
+}
+
 body{
    margin:0px 0px 0px 0px;
+   min-height: 100vh;
 }
 
 #cabeza{
   width: 100%;
   background-color: #F3C81A;
+  margin: 0px;
+}
+
+.menu{
+  display: block;
 }
 
 
 #div_logo{
   width: 100%;
   text-align: center;
+  margin:0px 0px 0px 0px;
 }
 
 .menu_bar {
@@ -20,11 +31,13 @@ body{
 #div_menu{
   width: 100%;
   background-color: #333;
+  margin:0px 0px 0px 0px;
 }
 
 .menu ul{
   list-style:none;
-  margin-left: -40px;
+  margin-left: -15.77px;
+  padding: 0px;
 }
 
 .menu ul li{
@@ -42,6 +55,28 @@ body{
   text-decoration:none;
   padding: 20px;
   font-weight: bold;
+}
+
+footer{
+  background-color: #333;
+  height: 60px;
+ /*position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;*/
+}
+
+h2{
+  margin:0px 0px 0px 0px;
+}
+
+#result{
+  margin:0px 0px 0px 0px;
+}
+
+input{
+ margin:0px 0px 0px 0px;
 }
 
 @media screen and (max-width: 800px) {
