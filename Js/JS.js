@@ -1,3 +1,5 @@
+var nv=1;
+
 function agregar_numero(){
 	var contenedor = document.getElementById("numeros");
 	contenedor.innerHTML = contenedor.innerHTML + " " + document.getElementById("numero").value;
@@ -59,4 +61,16 @@ function limpiar(){
 	contenedor.innerHTML="";
 	var elemento =  document.getElementById("result");
 	elemento.innerHTML = "";
+}
+
+function aparecer_menu(){
+	if(nv%2==1)
+	{
+		document.getElementById("menu").style.display="block";
+	}
+	else
+	{
+		document.getElementById("menu").style.display="none";
+	}
+	nv++;
 }

@@ -5,34 +5,37 @@
 		<script type="text/javascript" src="Js/JS.js"></script>
 		<link rel="shortcut icon" href="img/comercio_peq_logo.ico">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta charset="utf-8"/>
 	</head>
 	<body>
-		<section id="portada">
-			<header id="cabeza">
+		<header id="cabeza" class="cabeza">
+			<div id="div_logo" class="div_logo">
 				<img src="img/El-COMERCIO.jpg" id="logo" class="logotipo"> 
-				<nav class="menu">
+			</div>
+			<div id="div_menu" class="div_menu">
+				<div class="menu_bar">
+					<a href="#" class="bt-menu" onclick="aparecer_menu()"><span class="icon-list2">xxx</span>Menú</a>
+				</div>
+				<nav class="menu" id="menu">
 					<ul>
 						<li>
-							Política
+							<a href="#">POLÍTICA</a>
 						</li>
 						<li>
-							Economía
+							<a href="#">ECONOMÍA</a>
 						</li>
 						<li>
-							Amenidades
+							<a href="#">AMENIDADES</a>
 						</li>
 						<li>
-							Deportes
-						</li>
-						<li>
-							Ocio
+							<a href="#">DEPORTES</a>
 						</li>
 					</ul>
 				</nav>
-			</header>
-		</section>
-		<section>
+			</div>
+		</header>
+		<section id="div_cuerpo">
 			<section id="cabezera">
 				<div style="display=inline-block;"> 
 					<label>Ordenacion de numeros</label> 
@@ -54,8 +57,9 @@
 				 	<input type="submit" id="limpiar" name="limpiar" value="Limpiar" onclick="limpiar()">
 				 </div>
 			</section>
-			<section id="result">
-			</section>
+		</section>
+		<section id="result">
+
 		</section>
 	</body>
 </html>

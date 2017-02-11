@@ -1,34 +1,85 @@
 body{
-	
+   margin:0px 0px 0px 0px;
 }
 
 #cabeza{
-  padding-top: 0px;
+  width: 100%;
   background-color: #F3C81A;
-  margin-top: 0px;
-  width: 90%;
 }
 
-.menu {
-  font-size: 24px;
-  display: inline-block;
-  position: absolute;
-  right: 0;
+
+#div_logo{
+  width: 100%;
+  text-align: center;
 }
 
-.menu li {
-  display: inline-block;
-  margin-left: 30px;
+.menu_bar {
+  display:none;
 }
 
-.menu li:before{
-  content: '∘';
-  font-size: 50px;
-  line-height: 20px;
-  color: white;
+#div_menu{
+  width: 100%;
+  background-color: #333;
 }
 
-.logotipo {
-  display: inline-block;
-  margin-left: 0;
+.menu ul{
+  list-style:none;
+  margin-left: -40px;
+}
+
+.menu ul li{
+  display:inline-block;
+  position: relative;
+}
+
+.menu ul li:hover {
+  background:#E6344A;
+}
+
+.menu ul li a {
+  color:#fff;
+  display:block;
+  text-decoration:none;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .menu{
+    width: 100%;
+    margin: 0;
+    display: none;
+  }
+
+  .menu ul li{
+    display: block;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    text-align: center;
+  }
+
+  .menu ul li a{
+    display: block;
+  }
+
+  .menu_bar {
+    display:block;
+    width:100%;
+    background:#333;
+  }
+ 
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+ 
+  .menu_bar span {
+    float: right;
+    font-size: 40px;
+  }
+
 }
