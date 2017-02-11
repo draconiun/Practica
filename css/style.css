@@ -72,14 +72,13 @@ body{
     padding: 20px;
     color: #fff;
     overflow: hidden;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
     text-decoration: none;
   }
  
   .menu_bar span {
     float: right;
-    font-size: 40px;
+    font-size: 20px;
   }
 
 }
