@@ -75,4 +75,19 @@ function aparecer_menu(){
 	nv++;
 }
 
+function ajustar(){
+	var ancho = (window.innerWidth);
+	var alto = (window.innerHeight);
+	if(ancho>=800)
+	{
+		document.getElementById("menu").style.display="block";
+		nv=1;
+	}
+	else if(nv%2==1)
+	{
+		document.getElementById("menu").style.display="none";
+	}
+}
+
+setInterval('ajustar()',0);
 
