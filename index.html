@@ -83,17 +83,3 @@
 		</footer>
 	</body>
 </html>
-<script>
-	
-	var cabeza = document.getElementById("cabeza");
-	var div_cuerpo = document.getElementById("div_cuerpo");
-	var result = document.getElementById("result");
-	var footer = document.getElementById("footer");
-	var body = document.getElementById("body");
-	var alto = body.offsetHeight - (footer.offsetHeight + result.offsetHeight  + cabeza.offsetHeight);
-	console.log(alto);
-
-	div_cuerpo.style.minHeight = alto +"px";
-	div_cuerpo.style.margin = "0px";
-
-</script>

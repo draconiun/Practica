@@ -2,15 +2,17 @@
   margin:0px 0px 0px 0px;
 }
 
-body{
-   margin:0px 0px 0px 0px;
-   min-height: 100vh;
+html, body{
+   width: 100%;
+   height: 100%;
+   margin: 0px 0px 0px 0px;
 }
 
 #cabeza{
+  height: auto !important;
+  height: 100%;
   width: 100%;
   background-color: #F3C81A;
-  margin: 0px;
 }
 
 .menu{
@@ -60,11 +62,7 @@ body{
 footer{
   background-color: #333;
   height: 60px;
- /*position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;*/
+  width: 100%;
 }
 
 h2{
@@ -72,11 +70,18 @@ h2{
 }
 
 #result{
-  margin:0px 0px 0px 0px;
+  min-height: 55.2%;
+  height: auto !important;
+  height: 100%;
 }
 
 input{
  margin:0px 0px 0px 0px;
+}
+
+#div_cuerpo{
+  height: auto !important;
+  height: 100%;
 }
 
 @media screen and (max-width: 800px) {
