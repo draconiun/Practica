@@ -12,6 +12,11 @@ img{
   width: auto;
 }
 
+#botones{
+  width: 100%;
+  display: inline-block;
+}
+
 #cabezera{
   display: inline-block;
   width: 100%;
@@ -253,6 +258,7 @@ input{
 
 }
 
+
 @media screen and (max-width: 800px) {
 
   .menu{
@@ -315,19 +321,57 @@ input{
     padding:  0px 0px 0px 0px;
   }
 
-  #btn_1,#btn_2,#btn_3,#txt_1{
+  #btn_1{
+    float: none;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    display:block;
+  }
+
+  #btn_2{
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+  }
+
+  #btn_3{
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+  }
+
+  #txt_1{
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+  }
+
+  #result{
+    /*width: 100%;*/
+    display: block;
   }
 
   #titulo h1{
     font-size: auto;
   }
 
-  img{
-    width: auto;
-  }
 
+}
+
+@media screen and (max-width: 394px) {
+    img{
+      width: 200px;
+    }
+
+    #titulo h1{
+      font-size: 40px;
+    }
 
 }
