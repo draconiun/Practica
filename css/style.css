@@ -130,7 +130,15 @@ input{
     font-size: 60px;
 }
 
+@media screen and (max-width: 1265px) {
+    #div_ft{
+      width: 30%;
+      display: inline-block;
+      padding: 7px;
+      text-align: center;
+    }
 
+}
 
 @media screen and (max-width: 800px) {
 
@@ -181,9 +189,11 @@ input{
   #div_ft{
     width: 100%;
     display: block;
-    padding: 7px 7px 7px 7px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
     margin:  0px 0px 0px 0px;
+    padding-bottom: 7px;
+    padding-top: 7px;
   }
 
   footer{
