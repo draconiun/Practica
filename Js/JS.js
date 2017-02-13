@@ -2,7 +2,7 @@ var nv=1;
 
 function agregar_numero(){
 	var contenedor = document.getElementById("numeros");
-	contenedor.innerHTML = contenedor.innerHTML + " " + document.getElementById("numero").value;
+	contenedor.innerHTML = contenedor.innerHTML   + document.getElementById("numero").value +" ";
 	document.getElementById("numero").value = "";
 }
 
@@ -50,9 +50,9 @@ function ordenar_numeros(){
 	lista_ordenada = algoritmoBurbuja(lista_numero);
 	for(i=0 ; i < cantidad_numero ; i++)
 	{
-		respuesta+=lista_ordenada[i]+" ";
+		if(lista_ordenada[i]!="") respuesta+=lista_ordenada[i]+" ";
 	}
-	var elemento =  document.getElementById("result");
+	var elemento =  document.getElementById("numeros");
 	elemento.innerHTML = respuesta;
 }
 
