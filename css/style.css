@@ -8,6 +8,10 @@ html, body{
    margin: 0px 0px 0px 0px;
 }
 
+img{
+  width: auto;
+}
+
 #cabeza{
   height: auto !important;
   height: 100%;
@@ -38,13 +42,20 @@ html, body{
 
 .menu ul{
   list-style:none;
-  margin-left: -15.77px;
+  margin-left: 25px;
   padding: 0px;
 }
+
+
 
 .menu ul li{
   display:inline-block;
   position: relative;
+}
+
+.menu ul li:last-child{
+ 
+  border-right:0px
 }
 
 .menu ul li:hover {
@@ -110,17 +121,34 @@ input{
   height: 100%;
 }
 
+#titulo{
+    text-align: center;
+}
+
+#titulo h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
 @media screen and (max-width: 800px) {
 
   .menu{
     width: 100%;
-    margin: 0;
+    margin: 0px 0px 0px 0px;
     display: none;
   }
 
   .menu ul li{
     display: block;
     border-bottom:1px solid rgba(255,255,255,.5);
+    text-align: center;
+  }
+
+  .menu ul li:first-child{
+    display: block;
+    border-top:1px solid rgba(255,255,255,.5);
     text-align: center;
   }
 
@@ -133,6 +161,7 @@ input{
     display:block;
     width:100%;
     background:#333;
+
   }
  
   .menu_bar .bt-menu {
@@ -150,16 +179,17 @@ input{
   }
 
   #div_ft{
-  width: 100%;
-  display: block;
-  padding: 7px;
-  text-align: center;
-  margin:  0px 0px 0px 0px;
+    width: 100%;
+    display: block;
+    padding: 7px 7px 7px 7px;
+    text-align: center;
+    margin:  0px 0px 0px 0px;
   }
 
   footer{
     height: auto;
     margin:  0px 0px 0px 0px;
+    padding:  0px 0px 0px 0px;
   }
 
 
