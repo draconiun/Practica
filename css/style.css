@@ -29,33 +29,33 @@ img{
 
 #numeros{
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: 35px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 #result{
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: 35px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 #btn_2{
-  width: 36%;
+  width: 30%;
   text-align: center;
   display: inline-block;
 }
 
 #btn_3{
-  width: 36%;
+  width: 48%;
   text-align: center;
   display: inline-block;
 }
 
 
 #btn_1{
-  width: 15%;
+  width: 30%;
   text-align: center;
   display: inline-block;
 }
@@ -67,62 +67,62 @@ img{
 }
 
 #agregar{
-    border: none;
-    background: #333;
-    color: #f2f2f2;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    position: relative;
-    box-sizing: border-box;
-    transition: all 500ms ease;
-    margin-left: 5px;
-    float: left;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  margin-left: 5px;
+  float: left;
 }
 
 #ordenar{
-    border: none;
-    background: #333;
-    color: #f2f2f2;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    position: relative;
-    box-sizing: border-box;
-    transition: all 500ms ease;
-    margin-left: 5px;
-    float: left;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  margin-left: 5px;
+  float: left;
 }
 
 #limpiar{
-    border: none;
-    background: #333;
-    color: #f2f2f2;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    position: relative;
-    box-sizing: border-box;
-    transition: all 500ms ease;
-    margin-left: 5px;
-    float: left;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  margin-left: 5px;
+  float: left;
 }
 
 #numero{
-    float: left;
-    border: 1px solid #DBE1EB;
-    font-size: 18px;
-    font-family: Arial, Verdana;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
-    background: #FFFFFF;
-    color: #2E3133;
+  float: left;
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  color: #2E3133;
 }
 
 #numero:focus{
@@ -140,7 +140,6 @@ img{
 .menu{
   display: block;
 }
-
 
 #div_logo{
   width: 100%;
@@ -163,8 +162,6 @@ img{
   margin-left: 25px;
   padding: 0px;
 }
-
-
 
 .menu ul li{
   display:inline-block;

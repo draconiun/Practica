@@ -75,9 +75,8 @@ function aparecer_menu(){
 	nv++;
 }
 
-function ajustar(){
+function ajustarMenuDespegable(){
 	var ancho = (window.innerWidth);
-	var alto = (window.innerHeight);
 	if(ancho>=800)
 	{
 		document.getElementById("menu").style.display="block";
@@ -89,5 +88,5 @@ function ajustar(){
 	}
 }
 
-setInterval('ajustar()',0);
+setInterval('ajustarMenuDespegable()',0);
 
